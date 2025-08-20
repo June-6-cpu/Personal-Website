@@ -1,0 +1,109 @@
+#hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #e4f9f5;
+}
+.name{
+    color: #66bfbf;
+    font-size: 100px;
+    font-family: "Sacramento",cursive;
+}
+.pro{
+    color: #66bfbf;
+    font-size: 50px;
+    font-family:  "Montserrat", sans-serif;
+    text-align: center;
+}
+p span{
+    text-decoration: underline;
+}
+#jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.jumbo-title{
+    text-align: center;
+    font-size: 80px;
+    color:#66bfbf;
+    font-family: sans-serif;
+}
+.my-desc{
+    font-size: 30px;
+    color:#40514e;
+    width: 500px;
+    text-align: center;
+}
+.me{
+    border-radius: 100%;
+    height: 300px;
+}
+#skills{
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heading{
+    grid-column: span 3;
+    text-align: center;
+    font-size: 80px;
+    color: #66bfbf;
+}
+.sub{
+    text-align: center;
+    font-size: 40px;
+    color: #11999e;
+    order:1;
+}
+.my-text{
+    font-size: 20px;
+    color:#40514e;
+    text-align: center;
+    order: 3;
+}
+
+.skill-img{
+    display: inline;
+    height: 240px;
+    width: 240px;
+    order:2;
+}
+.jumbo-text{
+    font-size: 20px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    text-align: center;
+}
+.footer{
+    background-color:#66bfbf ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.nav-item{
+    color: #11999e;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.my-at{
+    color: #e4f9f5;
+    text-align: center;
+}
